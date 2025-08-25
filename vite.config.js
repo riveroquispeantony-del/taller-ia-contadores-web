@@ -5,7 +5,6 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/taller-ia-contadores-web/",
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
